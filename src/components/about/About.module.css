@@ -1,0 +1,32 @@
+/* components/about/About.module.css */
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .aboutTitle {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .aboutContent {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .aboutSection {
+    margin-bottom: 30px;
+  }
+  
+  .aboutSection h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .aboutSection p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }

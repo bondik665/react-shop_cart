@@ -1,0 +1,65 @@
+/* components/header/NavMenuHeader.module.css */
+.ulnav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ulnav li {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  .ulnav li a,
+  .ulnav li button {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  .ulnav li a:hover,
+  .ulnav li button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .ulnav li button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ulnav li button svg {
+    margin-right: 5px;
+  }
+  
+  .ulnav li span:hover  {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+/* Адаптивные стили */
+@media (max-width: 768px) {
+  .ulnav {
+    flex-direction: row; /* Меню в строку */
+    justify-content: space-around; /* Равномерное распределение элементов */
+    margin-top: 10px; /* Отступ сверху */
+  }
+
+  .ulnav li {
+    margin: 0; /* Убираем отступы между элементами */
+  }
+}
